@@ -1,10 +1,5 @@
-#This is the API outlined in the planning phase - responsible for scanning in the QR code and sending the data to the relevant microservice
-import glob
 import cv2
 import pandas as pd
-import pathlib
-
-
 
 #Simulating scan of QR code
 def read_qr_code(filename):
@@ -25,6 +20,5 @@ def read_qr_code(filename):
     except:
         return
 
-value = read_qr_code('qrcode002.png')
-print(value)
-
+test = read_qr_code("qrcode002.png")
+print(test)
