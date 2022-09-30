@@ -19,6 +19,3 @@ def read_qr_code(filename):
         return value
     except:
         return
-
-test = read_qr_code("qrcode002.png")
-print(test)
